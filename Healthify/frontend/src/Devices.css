@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Noto+Sans:ital,wght@1,100&display=swap');
+@media screen and (max-width: 600px) {
+    .main-header {
+        max-width: 360px;
+    }
+
+    .logo{
+        width:119px;
+        height:52px ;
+        float:left ;
+        margin-left: 5px;
+    }
+
+    .Addbtn{
+        top:5px ;
+        left:50px ;
+        width:143px ;
+        height:31px ;
+        font-size: 12px;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .devices{
+        margin-left: 20px;
+        margin-top:40px ;
+        top: 40px;
+        width:157px ;
+        height:190px ;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+        border: 1px solid black;
+    }
+
+    .devname{
+        font-family: 'Familjen Grotesk', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .switch{
+        width:60px ;
+        height:55px ;
+    }
+
+
+}

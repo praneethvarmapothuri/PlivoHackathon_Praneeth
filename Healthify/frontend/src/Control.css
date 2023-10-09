@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Noto+Sans:ital,wght@1,100&display=swap');
+@media screen and (max-width: 600px) {
+    .main-header {
+        max-width: 360px;
+    }
+
+    .logo{
+        width:119px;
+        height:52px ;
+        float:left ;
+        margin-left: 5px;
+    }
+
+    .control-1{
+        height:50px ;
+        width:155px ;
+        margin-left: 30px;
+        margin-top: 10px ;
+        border: 2px solid black ;
+        background: linear-gradient(180deg, #ffd600, #b39139);
+    }
+
+    .control-2{
+        height:50px ;
+        width:155px ;
+        margin-left: 30px;
+        margin-top: 10px ;
+        border: 2px solid black ;
+        background-color: white;
+    }  
+    
+    .analysis-1{
+        height:50px ;
+        width:155px ;
+        margin-left: 0px;
+        margin-top: 10px ;
+        border-right: 2px solid black ;
+        border-top: 2px solid black ;
+        border-bottom: 2px solid black ;
+        background: linear-gradient(180deg,#CF69FF, #752FBB);
+    }
+
+    .analysis-2{
+        height:50px ;
+        width:155px ;
+        margin-left: 0px;
+        margin-top: 10px ;
+        border-right: 2px solid black ;
+        border-top: 2px solid black ;
+        border-bottom: 2px solid black ;
+        background-color: white;
+    }  
+
+    .heading{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 20px;
+    }
+
+    .header{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 25px;     
+        margin-top: 20px ; 
+        margin-bottom: 0px;  
+    }
+  
+
+    .components{
+        width:313px ;
+        height:330px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }
+
+    .coolingcomponents{
+        width:313px ;
+        height:210px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }
+
+    .batterycomponents{
+        width:313px ;
+        height:200px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }
+
+    .analysisbatterycomponents{
+        width:313px ;
+        height:330px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }    
+
+
+    .leftlabels{
+        width:88px ;
+        height:30px ;
+        margin-top: 20px;
+        margin-left: 15px;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px;
+    }
+
+    .leftlabels-2{
+        width:88px ;
+        height:30px ;
+        margin-top: 20px;
+        margin-left: 15px;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px;
+    }    
+
+    .leftlabels-3{
+        max-width: 88px;
+        width:88px ;
+        height:30px ;
+        margin-top: 80px;
+        margin-left: 15px;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px;
+    }    
+
+    .headinglabel{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 10px;       
+        color: white;  
+        margin-top: 0px;    
+    }
+
+    .headinglabel-3{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 10px;       
+        color: black;   
+        height:10px ;  
+    }
+
+    .headinglabel-1{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 12px;        
+        margin-top: 60px; 
+        margin-left: 120px;
+        margin-bottom:0px ;
+        height:10px ;
+        width:50px ;
+        text-align: left;
+    }
+
+    .coolingheadinglabel-1{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 12px;        
+        margin-top: 20px; 
+        margin-left: 120px;
+        margin-bottom:0px ;
+        height:10px ;
+        width:50px ;
+        text-align: left;
+    }    
+    
+
+    .headinglabel-6{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 12px;        
+        margin-top: 10px; 
+        margin-left: 143px;
+        margin-bottom:0px ;
+        height:10px ;
+        width:50px ;
+        text-align: left;
+    } 
+    
+    .left-labels-last{
+        width:88px ;
+        height:30px ;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px; 
+        margin-top: 105px;  
+        margin-left:15px ;
+        position:absolute ;     
+    }    
+
+    .coolingleft-labels-last{
+        width:88px ;
+        height:30px ;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px; 
+        margin-top: 70px;  
+        margin-left:15px ;
+        position:absolute ;     
+    }
+
+    .left-labels-last-battery{
+        width:88px ;
+        height:30px ;
+        background: linear-gradient(180deg, #53e1d9, #0473d9);
+        border-radius: 15px; 
+        margin-top: 105px;  
+        margin-left:15px ;
+        position:absolute ;     
+    }    
+
+    .temp{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 20px;       
+        margin-top: 2px; 
+    }
+
+    .safetycomponent{
+        width:313px ;
+        height:180px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }
+
+    .Addcomponent{
+        width:313px ;
+        height:140px ;
+        margin-left:30px ;
+        border: 1px solid black;
+    }    
+
+    .main-main-header{
+        font-family: 'Familjen Grotesk', sans-serif;
+        font-size: 15px;     
+        margin-top: 0px ; 
+        margin-bottom: 0px;  
+    }
+  
+
+
+}
